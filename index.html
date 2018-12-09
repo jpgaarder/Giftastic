@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIFANTASTIC</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="title">
+<header>
+<h1>GIFANTASTIC</h1>
+</header>
+</div>
+
+<!-- Buttons listed here -->
+<div id="buttons-list"></div>
+
+
+<form id="word-form">
+	<label id="label" for="word-input">ADD A WORD HERE</label><br>
+    <input type="text" id="word-input"><br>
+
+    <!-- Button to generate new word button -->
+    <input id="add-word" type="submit" value="GO">
+</form>
+
+<p id="help">help.</p>
+
+
+<div id="myModal" class="modal">
+
+  
+  <div class="modal-content">
+    <span class="close"></span>
+    <div id="tips">
+	<p>
+	Click on the button you want to see gifs of.  
+	<br>
+	You can create new buttons by adding a word, or words, in the input box and clicking 'GO'.  
+	<br>
+	Click gifs to play and pause</p>
+	</div>
+  </div>
+
+</div> 
+
+<div id="gifs-view"></div>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</html>
